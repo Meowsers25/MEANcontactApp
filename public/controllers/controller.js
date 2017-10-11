@@ -1,3 +1,5 @@
+
+//code to connect the 2 files (controller.js and index.html)
 var myApp = angular.module('myApp', []);
 myApp.controller('AppCtrl', ['$scope', '$http',
 function($scope, $http) {

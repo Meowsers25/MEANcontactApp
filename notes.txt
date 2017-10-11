@@ -1,0 +1,15 @@
+Simple RESTful API contact list app.
+
+Node = server on which app runs.
+Express = framework for Node/makes writing code for server easier.
+Angular = front-end framework for app/interface users see.
+MongoDB = Database to store data.
+
+Download Node
+In contactlist folder -  npm install express
+
+Controller for app - controls interaction between view(what user sees) and model which contains the data.
+    Helps break code into smaller more manageable chunks.
+
+
+To put data from controller.js to index.html use $scope...$scope is the glue between application controller and the view

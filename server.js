@@ -1,3 +1,4 @@
+//require express
 var express = require('express');
 var app = express();
 
@@ -6,6 +7,7 @@ var db = mongojs('contactlist', ['contactlist']);
 
 var bodyParser = require('body-parser');
 
+//express command to tell server where to look for index.html ** 2 underscores
 app.use(express.static(__dirname + "/public"));
 
 app.use(bodyParser.json());
